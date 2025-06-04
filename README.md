@@ -13,4 +13,9 @@ These are some examples of scripts I've been creating for my horror games.
        - Attacking: Triggers damage when the enemy reaches the player within attack range.
     - Data Persistence Saves and loads enemy-related data, ensuring behavior consistency across game sessions.
 
-
+3. Save System
+   - Defines the SaveSystem class for managing game data persistence, saving and loading game data and supporting encrypted storage.
+   - Uses StreamWriter and StreamReader to manage serialized game data in .save files.
+   - Handles multiple player profiles and selects the most recently used one.
+   - Loads and saves dialogue-related data to maintain consistency in conversations.
+   - Allows temporary data storage, useful for checkpoints or transitioning between scenes.
